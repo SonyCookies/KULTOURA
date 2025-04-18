@@ -43,7 +43,7 @@ interface CategoryExpense {
 
 export default function DetailedExpenses({ className = "" }: DetailedExpensesProps) {
   const [searchQuery, setSearchQuery] = useState("")
-  const [filterCategory, setFilterCategory] = useState<string | null>(null)
+  const [filterCategory] = useState<string | null>(null)
   const [showAllDetails, setShowAllDetails] = useState(false)
   const [expandedCategories, setExpandedCategories] = useState<string[]>([])
 
@@ -410,7 +410,7 @@ export default function DetailedExpenses({ className = "" }: DetailedExpensesPro
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {filteredExpenses.map((expense, index) => (
+            {filteredExpenses.map((expense) => (
               <React.Fragment key={expense.category}>
                 <tr className="hover:bg-green-50 transition-colors">
                   <td className="px-6 py-4 text-sm text-gray-700 font-medium">

@@ -22,7 +22,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col items-end">
             <p className="text-green-100 text-sm md:text-base italic">
-              "Tracing Roots, Bridging Generations: Weaving Oriental Mindoro's Living Heritage"
+            &quot;Tracing Roots, Bridging Generations: Weaving Oriental Mindoro&apos;s Living Heritage&quot;
             </p>
             <p className="text-green-200 text-xs mt-1">Mindoro State University – Calapan City Campus</p>
           </div>

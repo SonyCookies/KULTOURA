@@ -15,7 +15,6 @@ import {
   LucideBookOpen,
   LucideHeart,
   LucideMessageSquare,
-  LucideArrowDown,
   LucideCheck,
   LucideAward,
   LucideCamera,
@@ -208,7 +207,7 @@ export default function HomePage() {
             className="text-xl md:text-2xl text-green-700 italic max-w-3xl mx-auto mb-8"
             style={{ transform: `translateY(${titleParallax * -0.3}px)` }}
           >
-            "Tracing Roots, Bridging Generations: Weaving Oriental Mindoro's Living Heritage"
+            &quot;Tracing Roots, Bridging Generations: Weaving Oriental Mindoro&apos;s Living Heritage&quot;
           </motion.p>
 
           <motion.p
@@ -602,7 +601,7 @@ export default function HomePage() {
               <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              Explore the diverse cultural elements that make Oriental Mindoro's heritage unique and vibrant.
+              Explore the diverse cultural elements that make Oriental Mindoro&apos;s heritage unique and vibrant.
             </p>
           </motion.div>
 
@@ -676,7 +675,7 @@ export default function HomePage() {
                     <span>March 15, 2024</span>
                   </div>
                   <h3 className="text-xl font-bold text-green-800 mb-2 group-hover:text-green-600 transition-colors">
-                    Announcing KULTOURA 2025: A Celebration of Mindoro's Heritage
+                    Announcing KULTOURA 2025: A Celebration of Mindoro&apos;s Heritage
                   </h3>
                   <p className="text-gray-600 mb-4">
                     Mindoro State University is proud to announce KULTOURA 2025, a week-long cultural festival
@@ -718,7 +717,7 @@ export default function HomePage() {
                   </h3>
                   <p className="text-gray-600 mb-4">
                     Applications are now open for the Mr. and Ms. Cultural Royalty 2025 competition. Showcase your
-                    knowledge of Mindoro's cultural heritage.
+                    knowledge of Mindoro&apos;s cultural heritage.
                   </p>
                   <a
                     href="#"
@@ -876,8 +875,8 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
-                  "KULTOURA provides a vital platform for preserving and sharing our traditional practices with the
-                  younger generation. It's a bridge between past and future."
+                &quot;KULTOURA provides a vital platform for preserving and sharing our traditional practices with the
+                  younger generation. It&apos;s a bridge between past and future.&quot;
                 </p>
                 <div className="mt-4 flex">
                   {[1, 2, 3, 4, 5].map((star) => (
@@ -903,8 +902,8 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
-                  "Participating in KULTOURA opened my eyes to the rich cultural heritage of my province. I've gained a
-                  deeper appreciation for our traditions."
+                &quot;Participating in KULTOURA opened my eyes to the rich cultural heritage of my province. I&apos;ve gained a
+                  deeper appreciation for our traditions.&quot;
                 </p>
                 <div className="mt-4 flex">
                   {[1, 2, 3, 4, 5].map((star) => (
@@ -930,8 +929,8 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="text-gray-600 italic">
-                  "KULTOURA exemplifies how academic institutions can contribute to cultural preservation while
-                  providing students with meaningful learning experiences."
+                &quot;KULTOURA exemplifies how academic institutions can contribute to cultural preservation while
+                  providing students with meaningful learning experiences.&quot;
                 </p>
                 <div className="mt-4 flex">
                   {[1, 2, 3, 4, 5].map((star) => (
@@ -955,7 +954,7 @@ export default function HomePage() {
           >
             <h2 className="text-3xl font-bold text-green-800 mb-4">KULTOURA 2025</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-4">
-              A celebration of Oriental Mindoro's rich cultural heritage, hosted by Mindoro State University – Calapan
+              A celebration of Oriental Mindoro&apos;s rich cultural heritage, hosted by Mindoro State University – Calapan
               City Campus.
             </p>
             <p className="text-green-600 text-xl font-medium max-w-2xl mx-auto mb-8">April 15-25, 2025</p>
